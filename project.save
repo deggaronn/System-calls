@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int i, lim, total =0,count =0,quantum,wait=0,tat=0,avl[10],bt[10],temp[10],x;
+	float avg_wait, avg_tat;
+	printf("=========================\t\t\t Hello \t\t\t=================");
+	printf("\n\n\n\n");
+	printf("\tEnter Total number of Processes :\t:);
+	scanf("%d",&lim);
+	
+
+	x=lim;
+	for(i=0;i<lim;i++)
+	{
+		printf
